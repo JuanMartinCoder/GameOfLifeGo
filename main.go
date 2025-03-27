@@ -7,9 +7,9 @@ import (
 )
 
 const (
-	width         = 80
-	height        = 40
-	sleepIter     = 100
+	width         = 40
+	height        = 20
+	sleepIter     = 150
 	ansiEscapeSeq = "\033c\x0c"
 	brownSquare   = "\xE2\xAC\x9B"
 	whiteSquare   = "\xE2\xAC\x9C"
