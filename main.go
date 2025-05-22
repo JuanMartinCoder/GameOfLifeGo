@@ -102,6 +102,6 @@ func main() {
 		Step(newWorld, nextWorld)
 		newWorld, nextWorld = nextWorld, newWorld
 		time.Sleep(sleepIter * time.Millisecond)
-		fmt.Println(ansiEscapeSeq)
+		fmt.Print("\033[H\033[2J")
 	}
 }
